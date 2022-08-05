@@ -54,6 +54,9 @@
   letter-spacing: 3px;
   transition-duration: 0.5s;
   margin: 27px auto 0;
+  padding: 10px;
+  background: #2aa230;
+  color: white !important;
 }
 
 @media (max-width: 1199px) {
@@ -137,6 +140,13 @@
 
   .u-section-1 .u-shape-1 {
     margin-top: 20px;
+    position: absolute;
+  }
+
+  .u-section-1 .u-shape-2 {
+    margin-top: 20px;
+    position: absolute;
+    right: 0px;
   }
 
   .u-section-1 .u-text-2 {
@@ -149,7 +159,11 @@
   }
 
   .u-section-1 .u-link-1 {
-    margin-left: 213px;
+    /*margin-left: 213px;*/
+  }
+
+  .u-section-2 .u-layout-cell-5 {
+    display: none;
   }
 }
 
@@ -173,7 +187,12 @@
   }
 
   .u-section-1 .u-shape-1 {
-    margin-top: -5px;
+    position: relative;
+  }
+
+  .u-section-1 .u-shape-2 {
+    top: 109px;
+    right: 0px;
   }
 
   .u-section-1 .u-text-2 {
